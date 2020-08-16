@@ -1,24 +1,32 @@
-# README
+[ ]
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## backend
 
-Things you may want to cover:
+- Location
+  - name: string
+  - description: string
+  - (picture): img
+  - favorite: boolean
+  - destination: boolean
+  - visited: boolean
 
-* Ruby version
+### GET /locations
 
-* System dependencies
+- POST /location/:id/favorite
+- POST /location/:id/destination
+- POST /location/:id/visited
 
-* Configuration
+## frontend
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- App
+  - header
+  - nav bar
+  - locations (Container)
+    - location cards (many)
+      - name SL
+      - description SL
+      - picture SL
+      - actions (Container)
+        - favorite SL
+        - destination SL
+        - visted SL
