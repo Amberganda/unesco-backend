@@ -1,3 +1,2 @@
-Location.create(name: 'Location', description: 'home', favorite: 'true', destination: 'false', visited: 'true')
-Location.create(name: 'Carlsbad', description: 'SD', favorite: 'false', destination: 'false', visited: 'false')
-Location.create(name: 'Deming', description: 'parents', favorite: 'true', destination: 'true', visited: 'true')
+
+Location.create(name: 'Carlsbad Caverns National Park', unesco_api_id: 721)
