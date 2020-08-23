@@ -10,16 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_16_011543) do
+ActiveRecord::Schema.define(version: 2020_08_23_205056) do
 
   create_table "locations", force: :cascade do |t|
     t.string "name"
-    t.string "description"
     t.boolean "favorite"
     t.boolean "destination"
     t.boolean "visited"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "unesco_api_id"
   end
 
 end

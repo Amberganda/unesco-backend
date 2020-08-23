@@ -20,13 +20,14 @@
 
 - App
   - header
-  - nav bar
-  - locations (Container)
-    - location cards (many)
+  - NavBar
+  - LocationsList (Container); can also be FavoritesList, DestinationsList, VisitedList,
+    - location (Component)
       - name SL
       - description SL
-      - picture SL
+      - picture SL (stretch goal)
       - actions (Container)
         - favorite SL
         - destination SL
         - visted SL
+          \*SL = STATELESS
