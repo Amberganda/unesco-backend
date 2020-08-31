@@ -23,11 +23,11 @@
   - NavBar
   - LocationsList (Container); can also be FavoritesList, DestinationsList, VisitedList,
     - location (Component)
-      - name SL
-      - description SL
-      - picture SL (stretch goal)
+      - name SL\*
+      - description SL (stretch. don't have)
+      - picture sl (don't have)
       - actions (Container)
-        - favorite SL
-        - destination SL
-        - visted SL
-          \*SL = STATELESS
+        - favorite SL\*
+        - destination SL\*
+        - visted SL\*
+          \*SL = STATELESS: just stateless props. the state is coming from the redux store.
